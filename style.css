@@ -71,11 +71,16 @@ p {
     border-radius: 8px;
     padding: 12px 0;
     color: white;
+    transition: background-color .1s ease;
+}
+.add-to-cart:hover {
+    background-color: hsl(158, 42%, 18%); 
 }
 .add-button {
     margin-left: 10px;
     font-weight: 700;
 }
+
 
 @media (max-width: 600px) {
     .container {
